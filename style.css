@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  margin: 0px;
+  background-color: #F9FAF8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.section1 ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.section1 ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.awesome-website {
+  width: 1000px;
+  display: flex;
+  /* i think flex: 1 here would be good for even proportions on the 'sandwich' */
+  gap: 20px;
+  margin: 100px;
+}
+
+.awesome-L, .awesome-R {
+  flex: 1;
+}
+
+.awesome-L h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  margin: 0px;
+}
+
+.awesome-L p {
+  font-size: 18px;
+  color: #e5e5e5;
+}
+
+.awesome-L button {
+  padding: 10px 24px;
+  background-color: #3882F6;
+  font-size: 18px;
+  font-weight: 900;
+  color: #e5e5e5;
+  border-radius: 10px;
+  border: 0;
+}
+
+.awesome-R {
+  background-color: #6D747D;
+  color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
