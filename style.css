@@ -119,3 +119,33 @@ body {
   border-radius: 20px;
   padding: 50% 0;
 }
+
+.section3 {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section3 .width-limiter {
+  margin: 100px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-attribution {
+  font-weight: 700;
+  align-self: flex-end;
+  font-size: 24px;
+}
