@@ -149,3 +149,40 @@ body {
   align-self: flex-end;
   font-size: 24px;
 }
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  color: white;
+  margin: 100px;
+  padding: 20px;
+  width: 800px;
+  border-radius: 10px;
+}
+
+.call-to-action h2 {
+  padding: 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.call-to-action button.right {
+  color: white;
+  background-color: #3882F6;
+  padding: 10px 24px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #e5e5e5;
+  border-radius: 10px;
+  border: 2px solid white;
+  flex-shrink: 0;
+}
+
